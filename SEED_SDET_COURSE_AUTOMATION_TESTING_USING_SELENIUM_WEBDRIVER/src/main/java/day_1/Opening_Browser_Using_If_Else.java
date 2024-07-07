@@ -23,6 +23,9 @@ public class Opening_Browser_Using_If_Else {
 
 		if (choice == 1) {
 			WebDriver driver = new FirefoxDriver();
+
+
+			
 			driver.get("https://www.google.com/");
 
 		} else if (choice == 2) {
@@ -44,7 +47,6 @@ public class Opening_Browser_Using_If_Else {
 
 
 		}
-
 
 	}
 
