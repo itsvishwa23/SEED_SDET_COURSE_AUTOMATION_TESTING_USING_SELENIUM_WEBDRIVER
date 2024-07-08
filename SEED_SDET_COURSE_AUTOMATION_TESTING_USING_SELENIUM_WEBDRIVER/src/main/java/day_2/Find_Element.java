@@ -17,6 +17,9 @@ public class Find_Element {
 		driver.findElement(By.id("password")).sendKeys("Pass@123");
 		Thread.sleep(5000);
 		driver.close();
+		
+		
+		
 	}
 
 }
