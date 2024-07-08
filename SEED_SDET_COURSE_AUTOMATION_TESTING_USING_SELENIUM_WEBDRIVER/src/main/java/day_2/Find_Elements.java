@@ -23,10 +23,11 @@ public class Find_Elements {
 		for (int i = 0; i < lst.size(); i++) {
 			WebElement element = lst.get(i);
 			String linkText = element.getText();
-			String linkHref = element.getAttribute("href");
-			System.out.println((i + 1) + ". " + linkText + " - " + linkHref);
+			
+			System.out.println((i + 1) + ". " + linkText + " - " );
 		}
 
+		
 		driver.quit();
 	}
 }
