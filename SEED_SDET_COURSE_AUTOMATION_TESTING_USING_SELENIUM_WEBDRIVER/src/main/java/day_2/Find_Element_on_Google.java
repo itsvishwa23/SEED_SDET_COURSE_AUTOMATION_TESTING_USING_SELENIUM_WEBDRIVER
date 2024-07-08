@@ -17,7 +17,7 @@ public class Find_Element_on_Google {
 		WebElement search = driver.findElement(By.className("gLFyf"));
 
 		search.sendKeys("Seed Infotech");
-		search.submit();
+//		search.submit();
 
 	}
 
