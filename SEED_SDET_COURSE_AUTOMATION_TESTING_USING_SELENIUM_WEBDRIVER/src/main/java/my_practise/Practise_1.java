@@ -23,6 +23,7 @@ public class Practise_1 {
 //		WebElement test = driver.findElement(By.partialLinkText("Desti"));
 //		WebElement test = driver.findElement(By.name(""));
 		WebElement test = driver.findElement(By.tagName("div"));
+		
 
 		if (test != null) {
 
