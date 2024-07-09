@@ -11,7 +11,7 @@ public class Assignment_1_2 {
 
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
-		
+
 		driver.get("https://demoqa.com/");
 		driver.findElement(By.xpath("//h5[normalize-space()='Forms']")).click();
 		driver.findElement(By.xpath(
@@ -25,8 +25,6 @@ public class Assignment_1_2 {
 		driver.findElement(By.id("permanentAddress")).sendKeys("Pune");
 
 		driver.findElement(By.xpath("//button[@id='submit']")).click();
-
-
 
 	}
 
