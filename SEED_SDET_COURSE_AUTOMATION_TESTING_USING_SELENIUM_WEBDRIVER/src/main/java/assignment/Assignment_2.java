@@ -15,7 +15,7 @@ public class Assignment_2 {
 		driver.findElement(By.partialLinkText("Create a new account")).click();
 		driver.findElement(By.cssSelector("input[name*='name']")).sendKeys("Vishwanath Sopan Taware");
 		driver.findElement(By.cssSelector("input[name*='login']")).sendKeys("vst");
-		driver.findElement(By.cssSelector("input[name*='name']")).sendKeys("Pass@123");
+		driver.findElement(By.cssSelector("input[name*='']")).sendKeys("Pass@123");
 		driver.findElement(By.cssSelector("input[name*='name']")).sendKeys("Pass@123");
 		driver.findElement(By.cssSelector("input[name*='name']")).sendKeys("test@mail.com");
 
