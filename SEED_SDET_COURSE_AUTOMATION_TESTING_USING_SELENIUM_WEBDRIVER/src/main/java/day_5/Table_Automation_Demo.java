@@ -33,6 +33,13 @@ public class Table_Automation_Demo {
 
 		List<WebElement> row_no = driver.findElements(By.xpath("/html/body/div[2]/div[4]/table/tbody/tr"));
 
+		for (WebElement webElement : row_no) {
+
+
+			System.out.println(webElement.getText());
+
+		}
+
 		int row_count = row_no.size();
 
 		System.out.println("The number of rows are:" + row_count);
