@@ -13,8 +13,6 @@ public class Table_Automation_Demo {
 		// TODO Auto-generated method stub
 		WebDriver driver = new FirefoxDriver();
 
-
-
 		driver.get("https://money.rediff.com/gainers/bse/daily/groupa?src=gain_lose");
 
 		driver.manage().window().maximize();
@@ -35,7 +33,6 @@ public class Table_Automation_Demo {
 
 		for (WebElement webElement : row_no) {
 
-
 			System.out.println(webElement.getText());
 
 		}
@@ -43,13 +40,26 @@ public class Table_Automation_Demo {
 		int row_count = row_no.size();
 
 		System.out.println("The number of rows are:" + row_count);
-		
+
 		WebElement wele = driver.findElement(By.xpath("//td[normalize-space()='330.30']"));
 		WebElement wele2 = driver.findElement(By.xpath("//th[normalize-space()='Current Price (Rs)']"));
 
 		System.out.println(wele.getText());
 		System.out.println(wele2.getText());
 
+		List<WebElement> max_list = driver.findElements(By.xpath("/html/body/div[2]/div[4]/table/tbody/tr/td[4]"));
+
+		double maxValue = Double.MIN_VALUE; // Initialize with the smallest double value
+
+		for (WebElement webElement : max_list) {
+			String text = webElement.getText().replace(",", ""); // Remove commas
+			double value = Double.parseDouble(text);
+			if (value > maxValue) {
+				maxValue = value;
+			}
+		}
+
+		System.out.println("Maximum value: " + maxValue);
 	}
 
 }
