@@ -28,7 +28,7 @@ public class Assignment_7 {
 //				.sendKeys("M");
 //		Thread.sleep(5000);
 //		driver.findElement(By.xpath("//div[@class='css-12jo7m5 subjects-auto-complete__multi-value__label']")).click();
-//		driver.findElement(By.xpath("//label[@for='hobbies-checkbox-1']")).click();
+		driver.findElement(By.xpath("//label[@for='hobbies-checkbox-1']")).click();
 		driver.findElement(By.xpath("//input[@id='uploadPicture']"))
 				.sendKeys("/Users/vishwanathtaware/Downloads/2IMCC_JULY_2024.jpg");
 		driver.findElement(By.xpath("//textarea[@id='currentAddress']")).sendKeys("Pune");
