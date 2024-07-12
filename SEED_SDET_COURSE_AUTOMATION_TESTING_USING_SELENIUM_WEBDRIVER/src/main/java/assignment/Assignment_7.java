@@ -16,22 +16,19 @@ public class Assignment_7 {
 		driver.findElement(By.xpath("//input[@id='firstName']")).sendKeys("Vishwanath");
 		driver.findElement(By.xpath("//input[@id='lastName']")).sendKeys("Taware");
 		driver.findElement(By.xpath("//input[@id='userEmail']")).sendKeys("vst@gmail.com");
-		Thread.sleep(5000);
 		driver.findElement(By.xpath("//label[@for='gender-radio-1']")).click();
-		driver.findElement(By.xpath("//input[@id='userNumber']")).sendKeys("7744062398");
-//		driver.findElement(By.xpath(
-//				"//div[@class='subjects-auto-complete__value-container subjects-auto-complete__value-container--is-multi css-1hwfws3']"))
-//				.click();
-//		Thread.sleep(5000);
-//		driver.findElement(By.xpath(
-//				"//div[@class='subjects-auto-complete__value-container subjects-auto-complete__value-container--is-multi css-1hwfws3']"))
-//				.sendKeys("M");
-//		Thread.sleep(5000);
-//		driver.findElement(By.xpath("//div[@class='css-12jo7m5 subjects-auto-complete__multi-value__label']")).click();
+//		driver.findElement(By.xpath("//input[@id='dateOfBirthInput']")).click();
+//		driver.findElement(By.xpath("//div[@aria-label='Choose Saturday, July 13th, 2024']")).click();
 		driver.findElement(By.xpath("//label[@for='hobbies-checkbox-1']")).click();
-		driver.findElement(By.xpath("//input[@id='uploadPicture']"))
-				.sendKeys("/Users/vishwanathtaware/Downloads/2IMCC_JULY_2024.jpg");
 		driver.findElement(By.xpath("//textarea[@id='currentAddress']")).sendKeys("Pune");
+		driver.findElement(By.xpath("//div[contains(text(),'Select State')]")).click();
+		driver.findElement(By.partialLinkText("NCR")).click();
+		driver.findElement(By.xpath("//div[contains(text(),'Select City')]")).click();
+		driver.findElement(By.xpath("//button[@id='submit']")).submit();
+
+
+
+		driver.quit();
 
 	}
 
