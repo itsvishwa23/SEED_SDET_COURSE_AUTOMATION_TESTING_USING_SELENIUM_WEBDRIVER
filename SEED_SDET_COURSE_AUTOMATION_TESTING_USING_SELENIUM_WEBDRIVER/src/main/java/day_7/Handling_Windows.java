@@ -1,10 +1,13 @@
+package day_7;
 import java.time.Duration;
+import java.util.Iterator;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Day_7 {
+public class Handling_Windows {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
@@ -19,8 +22,13 @@ public class Day_7 {
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//a[@id='topMnubanking']")).click();
 		driver.findElement(By.linkText("Citi Commercial Bank")).click();
-		driver.quit();
 
+		Set<String> windowSet = driver.getWindowHandles();
+		Iterator<String> i = windowSet.iterator();
+		String window1 = i.next();
+		String window2 = i.next();
+		driver.switchTo().window(window2);
+		driver.quit();
 	}
 
 }
