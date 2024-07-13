@@ -1,4 +1,5 @@
 package day_7;
+
 import java.time.Duration;
 import java.util.Iterator;
 import java.util.Set;
@@ -19,16 +20,20 @@ public class Handling_Windows {
 		driver.findElement(By.xpath("//a[@class='newclose']")).click();
 		driver.findElement(By.xpath("//a[@class='newclose2']")).click();
 		driver.findElement(By.xpath("//a[@class='newclose3']")).click();
-		Thread.sleep(3000);
-		driver.findElement(By.xpath("//a[@id='topMnubanking']")).click();
-		driver.findElement(By.linkText("Citi Commercial Bank")).click();
+		driver.findElement(By.id("topMnubanking")).click();
+		driver.findElement(By.xpath("//*[@id=\"bankingSubMenu\"]/div[1]/div/ul/li/ul[1]/li/a/b")).click();
 
-		Set<String> windowSet = driver.getWindowHandles();
-		Iterator<String> i = windowSet.iterator();
-		String window1 = i.next();
-		String window2 = i.next();
-		driver.switchTo().window(window2);
-		driver.quit();
+		Set<String> win = driver.getWindowHandles();
+		Iterator<String> i = win.iterator();
+		String win1 = i.next();
+		System.out.println("First window title: " + driver.getTitle());
+		String win2 = i.next();
+		driver.switchTo().window(win2);
+		System.out.println("Second window title: " + driver.getTitle());
+		driver.findElement(By.xpath(
+				"//a[@href='/portal/newgen/corporate/global_commercial_banking/CRB/trade_finance.htm?eOfferCode=INLOSMTLNTFSW']"))
+				.click();
+
 	}
 
 }
