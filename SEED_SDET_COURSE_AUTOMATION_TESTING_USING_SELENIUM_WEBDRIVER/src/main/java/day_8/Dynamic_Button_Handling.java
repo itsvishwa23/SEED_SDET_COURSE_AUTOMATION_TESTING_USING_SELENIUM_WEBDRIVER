@@ -22,6 +22,7 @@ public class Dynamic_Button_Handling {
 		WebElement btn3 = driver.findElement(By.xpath("//button[@id='rightClickBtn']"));
 		act.doubleClick(btn1).perform();
 		act.click(btn2).perform();
+		act.contextClick(btn3).perform();
 	}
 
 }
