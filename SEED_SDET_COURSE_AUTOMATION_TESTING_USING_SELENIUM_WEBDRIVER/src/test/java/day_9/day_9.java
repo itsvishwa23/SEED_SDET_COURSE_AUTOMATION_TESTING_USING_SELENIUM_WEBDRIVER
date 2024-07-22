@@ -10,11 +10,10 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
 public class day_9 {
-    WebDriver driver;
-
+	  WebDriver driver;
     @BeforeMethod
     public void beforeMethod() {
-        driver = new FirefoxDriver();
+        
         driver.get("https://www.google.com/");
         driver.manage().window().maximize();
     }
@@ -48,9 +47,13 @@ public class day_9 {
 
     @BeforeTest
     public void beforeTest() {
+      
+        driver = new FirefoxDriver();
+    	
     }
 
     @AfterTest
     public void afterTest() {
+    	driver.quit();
     }
 }

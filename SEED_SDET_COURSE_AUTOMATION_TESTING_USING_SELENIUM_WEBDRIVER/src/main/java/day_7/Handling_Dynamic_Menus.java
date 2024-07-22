@@ -34,6 +34,7 @@ public class Handling_Dynamic_Menus {
 				By.xpath("//li[@class='sp-menu-item sp-has-child']//a[@href='#!'][normalize-space()='ABOUT US']"));
 
 		act.moveToElement(menuElementtest).perform();
+		
 
 		List<WebElement> lst2 = driver
 				.findElements(By.xpath("//*[contains(@class, 'sp-menu-item') and contains(@class, 'sp-has-child')]"));
