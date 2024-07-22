@@ -1,7 +1,5 @@
 package day_8;
 
-import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,7 +11,6 @@ public class Dynamic_Button_Handling {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		WebDriver driver = new FirefoxDriver();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3000));
 		driver.get("https://demoqa.com/buttons");
 		Actions act = new Actions(driver);
 		WebElement btn1 = driver.findElement(By.xpath("//button[@id='doubleClickBtn']"));
@@ -23,6 +20,10 @@ public class Dynamic_Button_Handling {
 		act.doubleClick(btn1).perform();
 		act.click(btn2).perform();
 		act.contextClick(btn3).perform();
+		System.out.println(driver.findElement(By.xpath("//p[@id='doubleClickMessage']")).getText());
+		System.out.println(driver.findElement(By.xpath("//p[@id='rightClickMessage']")).getText());
+		System.out.println(driver.findElement(By.xpath("//p[@id='dynamicClickMessage']")).getText());
+
 	}
 
 }
