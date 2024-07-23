@@ -1,39 +1,33 @@
 package day_10;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.AfterMethod;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class echo_trak_ng {
+public class day_10_ng {
 	WebDriver driver;
-	echo_trak e;
+	POM_Demo p;
 
 	@Test
-	public void f() {
-		e.login();
-	}
-
-	@BeforeMethod
-	public void beforeMethod() {
-
-	}
-
-	@AfterMethod
-	public void afterMethod() {
+	public void demo_1() {
+		p.Check_Login();
 	}
 
 	@BeforeTest
 	public void beforeTest() {
 
-		e = new echo_trak(driver);
+		driver = new FirefoxDriver();
+		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
+		p = new POM_Demo(driver);
 
 	}
 
 	@AfterTest
 	public void afterTest() {
+
+		driver.quit();
 	}
 
 }

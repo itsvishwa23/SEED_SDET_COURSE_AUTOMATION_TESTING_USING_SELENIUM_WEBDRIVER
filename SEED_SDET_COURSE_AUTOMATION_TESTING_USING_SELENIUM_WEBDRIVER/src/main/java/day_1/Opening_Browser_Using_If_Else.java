@@ -24,8 +24,6 @@ public class Opening_Browser_Using_If_Else {
 		if (choice == 1) {
 			WebDriver driver = new FirefoxDriver();
 
-
-			
 			driver.get("https://www.google.com/");
 
 		} else if (choice == 2) {
@@ -40,11 +38,8 @@ public class Opening_Browser_Using_If_Else {
 			WebDriver driver_3 = new EdgeDriver();
 			driver_3.get("https://www.google.com/");
 
-		}
-		else {
+		} else {
 			System.err.println("Wrong Choice Entered");
-
-
 
 		}
 

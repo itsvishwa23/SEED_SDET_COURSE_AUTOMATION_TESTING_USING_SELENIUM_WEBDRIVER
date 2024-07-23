@@ -2,32 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-23T10:21:13 IST" name="Default suite" finished-at="2024-07-23T10:21:13 IST" duration-ms="20">
+  <suite started-at="2024-07-23T19:36:10 IST" name="Default suite" finished-at="2024-07-23T19:36:17 IST" duration-ms="7344">
     <groups>
     </groups>
-    <test started-at="2024-07-23T10:21:13 IST" name="Default test" finished-at="2024-07-23T10:21:13 IST" duration-ms="20">
-      <class name="day_10.NewTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:day_10.NewTest@d5b810e]" started-at="2024-07-23T10:21:13 IST" name="beforeTest" finished-at="2024-07-23T10:21:13 IST" duration-ms="3" status="PASS">
+    <test started-at="2024-07-23T19:36:10 IST" name="Default test" finished-at="2024-07-23T19:36:17 IST" duration-ms="7344">
+      <class name="day_10.day_10_ng">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:day_10.day_10_ng@5af3afd9]" started-at="2024-07-23T19:36:10 IST" name="beforeTest" finished-at="2024-07-23T19:36:15 IST" duration-ms="5193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:day_10.NewTest@d5b810e]" started-at="2024-07-23T10:21:13 IST" name="beforeMethod" finished-at="2024-07-23T10:21:13 IST" duration-ms="1" status="PASS">
+        <test-method signature="demo_1()[pri:0, instance:day_10.day_10_ng@5af3afd9]" started-at="2024-07-23T19:36:15 IST" name="demo_1" finished-at="2024-07-23T19:36:16 IST" duration-ms="838" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="f()[pri:0, instance:day_10.NewTest@d5b810e]" started-at="2024-07-23T10:21:13 IST" name="f" finished-at="2024-07-23T10:21:13 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:day_10.NewTest@d5b810e]" started-at="2024-07-23T10:21:13 IST" name="afterMethod" finished-at="2024-07-23T10:21:13 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:day_10.NewTest@d5b810e]" started-at="2024-07-23T10:21:13 IST" name="afterTest" finished-at="2024-07-23T10:21:13 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- demo_1 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:day_10.day_10_ng@5af3afd9]" started-at="2024-07-23T19:36:16 IST" name="afterTest" finished-at="2024-07-23T19:36:17 IST" duration-ms="1283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- day_10.NewTest -->
+      </class> <!-- day_10.day_10_ng -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
