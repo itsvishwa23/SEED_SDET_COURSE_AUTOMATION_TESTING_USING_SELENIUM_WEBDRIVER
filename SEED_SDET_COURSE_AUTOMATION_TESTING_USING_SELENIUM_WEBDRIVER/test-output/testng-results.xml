@@ -1,57 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-22T11:57:54 IST" name="Suite" finished-at="2024-07-22T11:58:09 IST" duration-ms="15591">
+  <suite started-at="2024-07-23T10:21:13 IST" name="Default suite" finished-at="2024-07-23T10:21:13 IST" duration-ms="20">
     <groups>
     </groups>
-    <test started-at="2024-07-22T11:57:54 IST" name="Test" finished-at="2024-07-22T11:58:09 IST" duration-ms="15591">
-      <class name="day_9.Day_9_2">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:day_9.Day_9_2@54bff557]" started-at="2024-07-22T11:57:54 IST" name="beforeTest" finished-at="2024-07-22T11:58:07 IST" duration-ms="13234" status="PASS">
+    <test started-at="2024-07-23T10:21:13 IST" name="Default test" finished-at="2024-07-23T10:21:13 IST" duration-ms="20">
+      <class name="day_10.NewTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:day_10.NewTest@d5b810e]" started-at="2024-07-23T10:21:13 IST" name="beforeTest" finished-at="2024-07-23T10:21:13 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:day_9.Day_9_2@54bff557]" started-at="2024-07-22T11:58:07 IST" name="beforeMethod" finished-at="2024-07-22T11:58:07 IST" duration-ms="29" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:day_10.NewTest@d5b810e]" started-at="2024-07-23T10:21:13 IST" name="beforeMethod" finished-at="2024-07-23T10:21:13 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="Demo_1()[pri:1, instance:day_9.Day_9_2@54bff557]" started-at="2024-07-22T11:58:07 IST" name="Demo_1" finished-at="2024-07-22T11:58:08 IST" duration-ms="620" status="PASS">
+        <test-method signature="f()[pri:0, instance:day_10.NewTest@d5b810e]" started-at="2024-07-23T10:21:13 IST" name="f" finished-at="2024-07-23T10:21:13 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Demo_1 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:day_9.Day_9_2@54bff557]" started-at="2024-07-22T11:58:08 IST" name="afterMethod" finished-at="2024-07-22T11:58:08 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:day_9.Day_9_2@54bff557]" started-at="2024-07-22T11:58:08 IST" name="beforeMethod" finished-at="2024-07-22T11:58:08 IST" duration-ms="33" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="Demo_2()[pri:2, instance:day_9.Day_9_2@54bff557]" started-at="2024-07-22T11:58:08 IST" name="Demo_2" finished-at="2024-07-22T11:58:08 IST" duration-ms="594" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Demo_2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:day_9.Day_9_2@54bff557]" started-at="2024-07-22T11:58:08 IST" name="afterMethod" finished-at="2024-07-22T11:58:08 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:day_10.NewTest@d5b810e]" started-at="2024-07-23T10:21:13 IST" name="afterMethod" finished-at="2024-07-23T10:21:13 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:day_9.Day_9_2@54bff557]" started-at="2024-07-22T11:58:08 IST" name="beforeMethod" finished-at="2024-07-22T11:58:08 IST" duration-ms="31" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="Demo_3()[pri:3, instance:day_9.Day_9_2@54bff557]" started-at="2024-07-22T11:58:08 IST" name="Demo_3" finished-at="2024-07-22T11:58:09 IST" duration-ms="583" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Demo_3 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:day_9.Day_9_2@54bff557]" started-at="2024-07-22T11:58:09 IST" name="afterMethod" finished-at="2024-07-22T11:58:09 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:day_9.Day_9_2@54bff557]" started-at="2024-07-22T11:58:09 IST" name="afterTest" finished-at="2024-07-22T11:58:09 IST" duration-ms="432" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:day_10.NewTest@d5b810e]" started-at="2024-07-23T10:21:13 IST" name="afterTest" finished-at="2024-07-23T10:21:13 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- day_9.Day_9_2 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- day_10.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
