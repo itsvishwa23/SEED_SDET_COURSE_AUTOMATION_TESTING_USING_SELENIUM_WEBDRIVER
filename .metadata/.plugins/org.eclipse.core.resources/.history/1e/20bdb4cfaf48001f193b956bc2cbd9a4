@@ -1,0 +1,13 @@
+package day_10;
+
+import org.openqa.selenium.WebDriver;
+
+public class echo_trak {
+
+	WebDriver driver;
+
+	public echo_trak(WebDriver driver) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

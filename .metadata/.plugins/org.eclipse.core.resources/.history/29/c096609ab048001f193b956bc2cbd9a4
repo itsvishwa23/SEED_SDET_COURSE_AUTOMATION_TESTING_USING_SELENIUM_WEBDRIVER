@@ -1,0 +1,17 @@
+package day_10;
+
+import org.openqa.selenium.WebDriver;
+
+public class echo_trak {
+
+	WebDriver d1;
+
+	public echo_trak(WebDriver driver) {
+
+		d1 = driver;
+
+	}
+	
+	
+
+}
