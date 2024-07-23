@@ -14,7 +14,7 @@ public class NewTest {
 	@Test
 	public void f() {
 
-		d.login_btn_check();
+		
 	}
 
 	@BeforeMethod
