@@ -7,14 +7,11 @@ public class Opening_Browser {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		
+
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.youtube.com/");
 		System.out.println(driver.getTitle());
 		driver.manage().window().maximize();
-
-
 
 	}
 

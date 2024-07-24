@@ -9,7 +9,7 @@ public class POM_Demo {
 
 	public POM_Demo(WebDriver driver) {
 		// TODO Auto-generated constructor stub
-		d = driver;
+		this.d = driver;
 
 	}
 

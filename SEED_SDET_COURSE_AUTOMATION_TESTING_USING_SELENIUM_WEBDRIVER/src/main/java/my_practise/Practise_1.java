@@ -15,7 +15,6 @@ public class Practise_1 {
 		driver.get("https://demoqa.com/automation-practice-form");
 //		driver.get("https://mdbootstrap.com/docs/standard/extended/dropdown-checkbox/#");
 
-
 //		WebElement test = driver.findElement(By.id("ctl00_TripXpertLogo"));
 //		WebElement test = driver.findElement(By.className("rigToolsWrapper"));
 //		WebElement test = driver.findElement(By.linkText("Destinations"));
@@ -43,12 +42,10 @@ public class Practise_1 {
 //		Select dropdwn = new Select(drpdwn);
 //		dropdwn.selectByVisibleText("Germany");
 //		driver.close();
-		
-		
+
 //		
 		driver.findElement(By.xpath("//div[contains(text(),'Select State')]")).click();
 		driver.findElement(By.xpath("//*[@id=\"react-select-3-option-2\"]")).click();
-
 
 	}
 
