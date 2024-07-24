@@ -11,7 +11,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class With_Excel_Demo {
 	public static void main(String[] args) throws IOException {
 
-		FileInputStream fs = new FileInputStream("D:\\DemoFile.xlsx");
+		FileInputStream fs = new FileInputStream(
+				"/Users/vishwanathtaware/STUDY/SEED_SDET_COURSE_AUTOMATION_TESTING_USING_SELENIUM_WEBDRIVER/DemoFile.xlsx");
 
 		XSSFWorkbook workbook = new XSSFWorkbook(fs);
 		XSSFSheet sheet = workbook.getSheetAt(0);
