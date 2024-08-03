@@ -1,11 +1,10 @@
+Feature: Google Search
 
-Feature: Google Application
-
-
-
-  Scenario: Test Google Home Page
-    Given open wwww.google.com application
-    When user captures google title
-    Then validate google appliation 
-  
-
+  # Scenario: Test Google Home Page
+  #   Given the user opens the www.google.com application
+  #   When the user captures the Google title
+  #   Then validate the Google application
+  Scenario: Search for Pune and validate the URL
+    Given the user opens the Google application
+    When the user searches for "Pune"
+    Then the URL should contain "pune"
